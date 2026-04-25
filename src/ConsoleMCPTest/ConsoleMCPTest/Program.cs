@@ -48,5 +48,12 @@ public sealed class Tools
         _logger.LogInformation("GetCurrentTime tool called");
         return DateTime.Now.ToString("F");
     }
+
+    [McpServerTool, Description("Returns the length of the message")]
+    public int GetLength(string message)
+    {
+        _logger.LogInformation("returns length of the message");
+        return message?.Length ?? -1;
+    }
 }
 
