@@ -55,3 +55,7 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+/.vs/MCP/FileContentIndex
+/.vs/MCP/v17
+/.vs
+/src/ConsoleMCPTest/.vs
