@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "console-mcp": {
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "../src/ConsoleMCPTest/ConsoleMCPTest/ConsoleMCPTest.csproj"
+            ],
+            "disabled": false
+        }
+    }
+}

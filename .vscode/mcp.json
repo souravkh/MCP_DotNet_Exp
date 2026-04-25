@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "console-mcp": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "./ConsoleMCPTest/ConsoleMCPTest/ConsoleMCPTest.csproj"
+            ]
+        }
+    }
+}
