@@ -6,7 +6,7 @@
             "args": [
                 "run",
                 "--project",
-                "./ConsoleMCPTest/ConsoleMCPTest/ConsoleMCPTest.csproj"
+                "./src/ConsoleMCPTest/ConsoleMCPTest/ConsoleMCPTest.csproj"
             ]
         }
     }
